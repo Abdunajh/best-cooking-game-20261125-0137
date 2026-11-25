@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rush Hour Kitchen</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #2B2118;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas {
+    display: block;
+    width: min(100vw, 177.78vh);
+    height: min(100vh, 56.25vw);
+    background: #FFF6E3;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+<canvas id="game" tabindex="0" aria-label="Rush Hour Kitchen: a cooking game. Click ingredients on the counter, or press keys 1 to 8, then serve with Space."></canvas>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
